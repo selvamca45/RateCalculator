@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15400" systemVersion="19A602" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Area" representedClassName="Area" syncable="YES">
+        <attribute name="areaId" optional="YES" attributeType="String"/>
+        <attribute name="areaName" optional="YES" attributeType="String"/>
+        <attribute name="cityString" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="JobLevel" representedClassName="JobLevel" syncable="YES">
+        <attribute name="jobTitleID" optional="YES" attributeType="String"/>
+        <attribute name="roleID" optional="YES" attributeType="String"/>
+        <attribute name="roleName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="JobTitle" representedClassName="JobTitle" syncable="YES">
+        <attribute name="jobTitleID" optional="YES" attributeType="String"/>
+        <attribute name="jobTitleName" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Rate" representedClassName="Rate" syncable="YES">
+        <attribute name="areaID" optional="YES" attributeType="String"/>
+        <attribute name="averageRate" optional="YES" attributeType="String"/>
+        <attribute name="jobTitleID" optional="YES" attributeType="String"/>
+        <attribute name="maxRate" optional="YES" attributeType="String"/>
+        <attribute name="minRate" optional="YES" attributeType="String"/>
+        <attribute name="roleID" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Salary" representedClassName="Salary" syncable="YES">
+        <attribute name="areaID" optional="YES" attributeType="String"/>
+        <attribute name="averageSalary" optional="YES" attributeType="String"/>
+        <attribute name="jobTitleID" optional="YES" attributeType="String"/>
+        <attribute name="maxSalary" optional="YES" attributeType="String"/>
+        <attribute name="minSalary" optional="YES" attributeType="String"/>
+        <attribute name="roleID" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Area" positionX="-54" positionY="-9" width="128" height="88"/>
+        <element name="JobLevel" positionX="0" positionY="45" width="128" height="88"/>
+        <element name="JobTitle" positionX="-36" positionY="9" width="128" height="73"/>
+        <element name="Rate" positionX="-18" positionY="27" width="128" height="133"/>
+        <element name="Salary" positionX="18" positionY="63" width="128" height="133"/>
+    </elements>
+</model>
