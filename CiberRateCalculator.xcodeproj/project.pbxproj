@@ -1,0 +1,936 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C16E0DB235DE13E009B49EC /* WelcomeDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C16E0DA235DE13E009B49EC /* WelcomeDashboardViewController.swift */; };
+		674F47BA2369C4FE0096F228 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB8F235F4C320098CEB3 /* OpenSans-Bold.ttf */; };
+		674F47BB2369C4FE0096F228 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB89235F4C300098CEB3 /* OpenSans-BoldItalic.ttf */; };
+		674F47BC2369C4FE0096F228 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB8E235F4C320098CEB3 /* OpenSans-ExtraBold.ttf */; };
+		674F47BD2369C4FE0096F228 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB8D235F4C320098CEB3 /* OpenSans-ExtraBoldItalic.ttf */; };
+		674F47BE2369C4FE0096F228 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB90235F4C320098CEB3 /* OpenSans-Italic.ttf */; };
+		674F47BF2369C4FE0096F228 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB8C235F4C310098CEB3 /* OpenSans-Light.ttf */; };
+		674F47C02369C4FE0096F228 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB88235F4C300098CEB3 /* OpenSans-LightItalic.ttf */; };
+		674F47C12369C4FE0096F228 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB91235F4C320098CEB3 /* OpenSans-Regular.ttf */; };
+		674F47C22369C4FE0096F228 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB92235F4C320098CEB3 /* OpenSans-Semibold.ttf */; };
+		674F47C32369C4FE0096F228 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9877AB8A235F4C310098CEB3 /* OpenSans-SemiboldItalic.ttf */; };
+		674F47C62369D54E0096F228 /* DropDownJobLevelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F47C42369D54E0096F228 /* DropDownJobLevelTableViewCell.swift */; };
+		674F47C72369D54E0096F228 /* DropDownJobLevelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 674F47C52369D54E0096F228 /* DropDownJobLevelTableViewCell.xib */; };
+		6765E4782356F01C00944029 /* HTCDropDownModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765E4742356F01B00944029 /* HTCDropDownModel.swift */; };
+		6765E4792356F01C00944029 /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765E4752356F01B00944029 /* DropDownViewController.swift */; };
+		6765E47A2356F01C00944029 /* HTCDropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6765E4762356F01B00944029 /* HTCDropDownCell.swift */; };
+		6765E47B2356F01C00944029 /* HTCDropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6765E4772356F01B00944029 /* HTCDropDownCell.xib */; };
+		676F58DF2357195300FBC20F /* EstimateCalculator.json in Resources */ = {isa = PBXBuildFile; fileRef = 676F58DE2357195200FBC20F /* EstimateCalculator.json */; };
+		67759C09235494FF000F6DC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C08235494FF000F6DC7 /* AppDelegate.swift */; };
+		67759C0B235494FF000F6DC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C0A235494FF000F6DC7 /* ViewController.swift */; };
+		67759C0E235494FF000F6DC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67759C0C235494FF000F6DC7 /* Main.storyboard */; };
+		67759C11235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 67759C0F235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld */; };
+		67759C1323549500000F6DC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67759C1223549500000F6DC7 /* Assets.xcassets */; };
+		67759C1623549500000F6DC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67759C1423549500000F6DC7 /* LaunchScreen.storyboard */; };
+		67759C2123549500000F6DC7 /* CiberRateCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C2023549500000F6DC7 /* CiberRateCalculatorTests.swift */; };
+		67759C2C23549500000F6DC7 /* CiberRateCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C2B23549500000F6DC7 /* CiberRateCalculatorUITests.swift */; };
+		67759C3C2354A650000F6DC7 /* CreateEstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C3B2354A650000F6DC7 /* CreateEstimateViewController.swift */; };
+		67759C3E2354A67B000F6DC7 /* EstimateDataModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C3D2354A67B000F6DC7 /* EstimateDataModal.swift */; };
+		67759C442354A717000F6DC7 /* EstimateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67759C422354A717000F6DC7 /* EstimateTableViewCell.swift */; };
+		67759C452354A717000F6DC7 /* EstimateTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67759C432354A717000F6DC7 /* EstimateTableViewCell.xib */; };
+		6777C56A2372D6B3004956F4 /* JobLevel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5602372D6B3004956F4 /* JobLevel+CoreDataClass.swift */; };
+		6777C56B2372D6B3004956F4 /* Rate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5612372D6B3004956F4 /* Rate+CoreDataProperties.swift */; };
+		6777C56C2372D6B3004956F4 /* JobTitle+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5622372D6B3004956F4 /* JobTitle+CoreDataClass.swift */; };
+		6777C56D2372D6B3004956F4 /* Salary+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5632372D6B3004956F4 /* Salary+CoreDataProperties.swift */; };
+		6777C56E2372D6B3004956F4 /* Salary+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5642372D6B3004956F4 /* Salary+CoreDataClass.swift */; };
+		6777C56F2372D6B3004956F4 /* Rate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5652372D6B3004956F4 /* Rate+CoreDataClass.swift */; };
+		6777C5702372D6B3004956F4 /* Area+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5662372D6B3004956F4 /* Area+CoreDataProperties.swift */; };
+		6777C5712372D6B3004956F4 /* JobTitle+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5672372D6B3004956F4 /* JobTitle+CoreDataProperties.swift */; };
+		6777C5722372D6B3004956F4 /* Area+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5682372D6B3004956F4 /* Area+CoreDataClass.swift */; };
+		6777C5732372D6B3004956F4 /* JobLevel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6777C5692372D6B3004956F4 /* JobLevel+CoreDataProperties.swift */; };
+		678A24BB2359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B62359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		678A24BC2359A9030074F59D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B72359A9030074F59D /* TPKeyboardAvoidingTableView.m */; };
+		678A24BD2359A9030074F59D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B82359A9030074F59D /* TPKeyboardAvoidingScrollView.m */; };
+		67E4975D2355B0F600076B79 /* DropDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497562355B0F600076B79 /* DropDownModel.m */; };
+		67E4975E2355B0F600076B79 /* LOVDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497582355B0F600076B79 /* LOVDataModel.m */; };
+		67E4975F2355B0F600076B79 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497592355B0F600076B79 /* DataModel.m */; };
+		67E497602355B0F600076B79 /* DropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E4975A2355B0F600076B79 /* DropDownView.m */; };
+		9877AB94235F50930098CEB3 /* DropDownJobTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877AB93235F50930098CEB3 /* DropDownJobTitleViewController.swift */; };
+		9877AB96235F50BE0098CEB3 /* DropDownJobLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877AB95235F50BE0098CEB3 /* DropDownJobLevelViewController.swift */; };
+		9877ABD6236071710098CEB3 /* DropDownJobTitleCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABD4236071710098CEB3 /* DropDownJobTitleCellTableViewCell.swift */; };
+		9877ABD7236071710098CEB3 /* DropDownJobTitleCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9877ABD5236071710098CEB3 /* DropDownJobTitleCellTableViewCell.xib */; };
+		9877ABE52360A8B70098CEB3 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABDB2360A8B70098CEB3 /* Reachability.m */; };
+		9877ABE62360A8B70098CEB3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABDC2360A8B70098CEB3 /* NetworkManager.swift */; };
+		9877ABE72360A8B70098CEB3 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABDD2360A8B70098CEB3 /* Reachability.swift */; };
+		9877ABE82360A8B70098CEB3 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABE02360A8B70098CEB3 /* NetworkManager.m */; };
+		9877ABE92360A8B70098CEB3 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABE22360A8B70098CEB3 /* AlertView.m */; };
+		9877ABEA2360A8B70098CEB3 /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9877ABE42360A8B70098CEB3 /* ErrorModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67759C1D23549500000F6DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67759BFD235494FF000F6DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67759C04235494FF000F6DC7;
+			remoteInfo = CiberRateCalculator;
+		};
+		67759C2823549500000F6DC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67759BFD235494FF000F6DC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67759C04235494FF000F6DC7;
+			remoteInfo = CiberRateCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C16E0DA235DE13E009B49EC /* WelcomeDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeDashboardViewController.swift; sourceTree = "<group>"; };
+		674F47C42369D54E0096F228 /* DropDownJobLevelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownJobLevelTableViewCell.swift; sourceTree = "<group>"; };
+		674F47C52369D54E0096F228 /* DropDownJobLevelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownJobLevelTableViewCell.xib; sourceTree = "<group>"; };
+		6765E4742356F01B00944029 /* HTCDropDownModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTCDropDownModel.swift; sourceTree = "<group>"; };
+		6765E4752356F01B00944029 /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropDownViewController.swift; sourceTree = "<group>"; };
+		6765E4762356F01B00944029 /* HTCDropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTCDropDownCell.swift; sourceTree = "<group>"; };
+		6765E4772356F01B00944029 /* HTCDropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTCDropDownCell.xib; sourceTree = "<group>"; };
+		676F58DE2357195200FBC20F /* EstimateCalculator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = EstimateCalculator.json; sourceTree = "<group>"; };
+		67759C05235494FF000F6DC7 /* CiberRateCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CiberRateCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67759C08235494FF000F6DC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67759C0A235494FF000F6DC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		67759C0D235494FF000F6DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		67759C10235494FF000F6DC7 /* CiberRateCalculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CiberRateCalculator.xcdatamodel; sourceTree = "<group>"; };
+		67759C1223549500000F6DC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67759C1523549500000F6DC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		67759C1723549500000F6DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67759C1C23549500000F6DC7 /* CiberRateCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiberRateCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67759C2023549500000F6DC7 /* CiberRateCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiberRateCalculatorTests.swift; sourceTree = "<group>"; };
+		67759C2223549500000F6DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67759C2723549500000F6DC7 /* CiberRateCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CiberRateCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67759C2B23549500000F6DC7 /* CiberRateCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CiberRateCalculatorUITests.swift; sourceTree = "<group>"; };
+		67759C2D23549500000F6DC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67759C3B2354A650000F6DC7 /* CreateEstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateEstimateViewController.swift; sourceTree = "<group>"; };
+		67759C3D2354A67B000F6DC7 /* EstimateDataModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateDataModal.swift; sourceTree = "<group>"; };
+		67759C422354A717000F6DC7 /* EstimateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateTableViewCell.swift; sourceTree = "<group>"; };
+		67759C432354A717000F6DC7 /* EstimateTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EstimateTableViewCell.xib; sourceTree = "<group>"; };
+		6777C5602372D6B3004956F4 /* JobLevel+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JobLevel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6777C5612372D6B3004956F4 /* Rate+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6777C5622372D6B3004956F4 /* JobTitle+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JobTitle+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6777C5632372D6B3004956F4 /* Salary+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salary+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6777C5642372D6B3004956F4 /* Salary+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Salary+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6777C5652372D6B3004956F4 /* Rate+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Rate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6777C5662372D6B3004956F4 /* Area+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Area+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6777C5672372D6B3004956F4 /* JobTitle+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JobTitle+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6777C5682372D6B3004956F4 /* Area+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Area+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6777C5692372D6B3004956F4 /* JobLevel+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JobLevel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		678A24B52359A9030074F59D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		678A24B62359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		678A24B72359A9030074F59D /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		678A24B82359A9030074F59D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		678A24B92359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		678A24BA2359A9030074F59D /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		67E497552355B0F600076B79 /* DropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownView.h; sourceTree = "<group>"; };
+		67E497562355B0F600076B79 /* DropDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownModel.m; sourceTree = "<group>"; };
+		67E497572355B0F600076B79 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		67E497582355B0F600076B79 /* LOVDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOVDataModel.m; sourceTree = "<group>"; };
+		67E497592355B0F600076B79 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		67E4975A2355B0F600076B79 /* DropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownView.m; sourceTree = "<group>"; };
+		67E4975B2355B0F600076B79 /* DropDownModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownModel.h; sourceTree = "<group>"; };
+		67E4975C2355B0F600076B79 /* LOVDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOVDataModel.h; sourceTree = "<group>"; };
+		67E497622355B2C100076B79 /* CiberRateCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CiberRateCalculator.h; sourceTree = "<group>"; };
+		9877AB88235F4C300098CEB3 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		9877AB89235F4C300098CEB3 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9877AB8A235F4C310098CEB3 /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		9877AB8B235F4C310098CEB3 /* Apache License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		9877AB8C235F4C310098CEB3 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		9877AB8D235F4C320098CEB3 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9877AB8E235F4C320098CEB3 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9877AB8F235F4C320098CEB3 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		9877AB90235F4C320098CEB3 /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		9877AB91235F4C320098CEB3 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		9877AB92235F4C320098CEB3 /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		9877AB93235F50930098CEB3 /* DropDownJobTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownJobTitleViewController.swift; sourceTree = "<group>"; };
+		9877AB95235F50BE0098CEB3 /* DropDownJobLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownJobLevelViewController.swift; sourceTree = "<group>"; };
+		9877ABD4236071710098CEB3 /* DropDownJobTitleCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownJobTitleCellTableViewCell.swift; sourceTree = "<group>"; };
+		9877ABD5236071710098CEB3 /* DropDownJobTitleCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownJobTitleCellTableViewCell.xib; sourceTree = "<group>"; };
+		9877ABDA2360A8B70098CEB3 /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		9877ABDB2360A8B70098CEB3 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		9877ABDC2360A8B70098CEB3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9877ABDD2360A8B70098CEB3 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9877ABDF2360A8B70098CEB3 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		9877ABE02360A8B70098CEB3 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		9877ABE12360A8B70098CEB3 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		9877ABE22360A8B70098CEB3 /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		9877ABE32360A8B70098CEB3 /* NetworkManager-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkManager-Bridging-Header.h"; sourceTree = "<group>"; };
+		9877ABE42360A8B70098CEB3 /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67759C02235494FF000F6DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C1923549500000F6DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C2423549500000F6DC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C16E0DC235DEC65009B49EC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				9877AB8B235F4C310098CEB3 /* Apache License.txt */,
+				9877AB8F235F4C320098CEB3 /* OpenSans-Bold.ttf */,
+				9877AB89235F4C300098CEB3 /* OpenSans-BoldItalic.ttf */,
+				9877AB8E235F4C320098CEB3 /* OpenSans-ExtraBold.ttf */,
+				9877AB8D235F4C320098CEB3 /* OpenSans-ExtraBoldItalic.ttf */,
+				9877AB90235F4C320098CEB3 /* OpenSans-Italic.ttf */,
+				9877AB8C235F4C310098CEB3 /* OpenSans-Light.ttf */,
+				9877AB88235F4C300098CEB3 /* OpenSans-LightItalic.ttf */,
+				9877AB91235F4C320098CEB3 /* OpenSans-Regular.ttf */,
+				9877AB92235F4C320098CEB3 /* OpenSans-Semibold.ttf */,
+				9877AB8A235F4C310098CEB3 /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		6765E4732356F01B00944029 /* DropDownSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6765E4742356F01B00944029 /* HTCDropDownModel.swift */,
+				6765E4752356F01B00944029 /* DropDownViewController.swift */,
+				9877AB93235F50930098CEB3 /* DropDownJobTitleViewController.swift */,
+				9877AB95235F50BE0098CEB3 /* DropDownJobLevelViewController.swift */,
+				6765E4762356F01B00944029 /* HTCDropDownCell.swift */,
+				6765E4772356F01B00944029 /* HTCDropDownCell.xib */,
+				9877ABD4236071710098CEB3 /* DropDownJobTitleCellTableViewCell.swift */,
+				9877ABD5236071710098CEB3 /* DropDownJobTitleCellTableViewCell.xib */,
+				674F47C42369D54E0096F228 /* DropDownJobLevelTableViewCell.swift */,
+				674F47C52369D54E0096F228 /* DropDownJobLevelTableViewCell.xib */,
+			);
+			path = DropDownSwift;
+			sourceTree = "<group>";
+		};
+		67759BFC235494FF000F6DC7 = {
+			isa = PBXGroup;
+			children = (
+				67759C07235494FF000F6DC7 /* CiberRateCalculator */,
+				67759C1F23549500000F6DC7 /* CiberRateCalculatorTests */,
+				67759C2A23549500000F6DC7 /* CiberRateCalculatorUITests */,
+				67759C06235494FF000F6DC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67759C06235494FF000F6DC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67759C05235494FF000F6DC7 /* CiberRateCalculator.app */,
+				67759C1C23549500000F6DC7 /* CiberRateCalculatorTests.xctest */,
+				67759C2723549500000F6DC7 /* CiberRateCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67759C07235494FF000F6DC7 /* CiberRateCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				6777C55F2372D6B3004956F4 /* CoreDataClass */,
+				4C16E0DC235DEC65009B49EC /* Font */,
+				67759C08235494FF000F6DC7 /* AppDelegate.swift */,
+				67759C0A235494FF000F6DC7 /* ViewController.swift */,
+				67E497532355B05400076B79 /* Componets */,
+				67759C392354A607000F6DC7 /* ViewController */,
+				67759C3A2354A615000F6DC7 /* DataModel */,
+				67759C3F2354A6A0000F6DC7 /* View */,
+				67759C0C235494FF000F6DC7 /* Main.storyboard */,
+				676F58DE2357195200FBC20F /* EstimateCalculator.json */,
+				67759C1223549500000F6DC7 /* Assets.xcassets */,
+				67759C1423549500000F6DC7 /* LaunchScreen.storyboard */,
+				67759C1723549500000F6DC7 /* Info.plist */,
+				67759C0F235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld */,
+				67E497622355B2C100076B79 /* CiberRateCalculator.h */,
+			);
+			path = CiberRateCalculator;
+			sourceTree = "<group>";
+		};
+		67759C1F23549500000F6DC7 /* CiberRateCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				67759C2023549500000F6DC7 /* CiberRateCalculatorTests.swift */,
+				67759C2223549500000F6DC7 /* Info.plist */,
+			);
+			path = CiberRateCalculatorTests;
+			sourceTree = "<group>";
+		};
+		67759C2A23549500000F6DC7 /* CiberRateCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67759C2B23549500000F6DC7 /* CiberRateCalculatorUITests.swift */,
+				67759C2D23549500000F6DC7 /* Info.plist */,
+			);
+			path = CiberRateCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		67759C392354A607000F6DC7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				67759C3B2354A650000F6DC7 /* CreateEstimateViewController.swift */,
+				4C16E0DA235DE13E009B49EC /* WelcomeDashboardViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		67759C3A2354A615000F6DC7 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				67759C3D2354A67B000F6DC7 /* EstimateDataModal.swift */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		67759C3F2354A6A0000F6DC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67759C422354A717000F6DC7 /* EstimateTableViewCell.swift */,
+				67759C432354A717000F6DC7 /* EstimateTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6777C55F2372D6B3004956F4 /* CoreDataClass */ = {
+			isa = PBXGroup;
+			children = (
+				6777C5602372D6B3004956F4 /* JobLevel+CoreDataClass.swift */,
+				6777C5612372D6B3004956F4 /* Rate+CoreDataProperties.swift */,
+				6777C5622372D6B3004956F4 /* JobTitle+CoreDataClass.swift */,
+				6777C5632372D6B3004956F4 /* Salary+CoreDataProperties.swift */,
+				6777C5642372D6B3004956F4 /* Salary+CoreDataClass.swift */,
+				6777C5652372D6B3004956F4 /* Rate+CoreDataClass.swift */,
+				6777C5662372D6B3004956F4 /* Area+CoreDataProperties.swift */,
+				6777C5672372D6B3004956F4 /* JobTitle+CoreDataProperties.swift */,
+				6777C5682372D6B3004956F4 /* Area+CoreDataClass.swift */,
+				6777C5692372D6B3004956F4 /* JobLevel+CoreDataProperties.swift */,
+			);
+			path = CoreDataClass;
+			sourceTree = SOURCE_ROOT;
+		};
+		678A24B42359A9030074F59D /* ScrollController */ = {
+			isa = PBXGroup;
+			children = (
+				678A24B52359A9030074F59D /* TPKeyboardAvoidingScrollView.h */,
+				678A24B62359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				678A24B72359A9030074F59D /* TPKeyboardAvoidingTableView.m */,
+				678A24B82359A9030074F59D /* TPKeyboardAvoidingScrollView.m */,
+				678A24B92359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				678A24BA2359A9030074F59D /* TPKeyboardAvoidingTableView.h */,
+			);
+			path = ScrollController;
+			sourceTree = "<group>";
+		};
+		67E497532355B05400076B79 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				9877ABD82360A8700098CEB3 /* WebService */,
+				678A24B42359A9030074F59D /* ScrollController */,
+				6765E4732356F01B00944029 /* DropDownSwift */,
+				67E497542355B0F600076B79 /* DropDown */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+		67E497542355B0F600076B79 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				67E497552355B0F600076B79 /* DropDownView.h */,
+				67E497562355B0F600076B79 /* DropDownModel.m */,
+				67E497572355B0F600076B79 /* DataModel.h */,
+				67E497582355B0F600076B79 /* LOVDataModel.m */,
+				67E497592355B0F600076B79 /* DataModel.m */,
+				67E4975A2355B0F600076B79 /* DropDownView.m */,
+				67E4975B2355B0F600076B79 /* DropDownModel.h */,
+				67E4975C2355B0F600076B79 /* LOVDataModel.h */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		9877ABD82360A8700098CEB3 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				9877ABD92360A8B70098CEB3 /* WebService */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		9877ABD92360A8B70098CEB3 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				9877ABDA2360A8B70098CEB3 /* AlertView.h */,
+				9877ABDB2360A8B70098CEB3 /* Reachability.m */,
+				9877ABDC2360A8B70098CEB3 /* NetworkManager.swift */,
+				9877ABDD2360A8B70098CEB3 /* Reachability.swift */,
+				9877ABDE2360A8B70098CEB3 /* NetworkManagerSales */,
+				9877ABE12360A8B70098CEB3 /* Reachability.h */,
+				9877ABE22360A8B70098CEB3 /* AlertView.m */,
+				9877ABE32360A8B70098CEB3 /* NetworkManager-Bridging-Header.h */,
+				9877ABE42360A8B70098CEB3 /* ErrorModel.swift */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		9877ABDE2360A8B70098CEB3 /* NetworkManagerSales */ = {
+			isa = PBXGroup;
+			children = (
+				9877ABDF2360A8B70098CEB3 /* NetworkManager.h */,
+				9877ABE02360A8B70098CEB3 /* NetworkManager.m */,
+			);
+			path = NetworkManagerSales;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67759C04235494FF000F6DC7 /* CiberRateCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67759C3023549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculator" */;
+			buildPhases = (
+				67759C01235494FF000F6DC7 /* Sources */,
+				67759C02235494FF000F6DC7 /* Frameworks */,
+				67759C03235494FF000F6DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CiberRateCalculator;
+			productName = CiberRateCalculator;
+			productReference = 67759C05235494FF000F6DC7 /* CiberRateCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67759C1B23549500000F6DC7 /* CiberRateCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67759C3323549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculatorTests" */;
+			buildPhases = (
+				67759C1823549500000F6DC7 /* Sources */,
+				67759C1923549500000F6DC7 /* Frameworks */,
+				67759C1A23549500000F6DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67759C1E23549500000F6DC7 /* PBXTargetDependency */,
+			);
+			name = CiberRateCalculatorTests;
+			productName = CiberRateCalculatorTests;
+			productReference = 67759C1C23549500000F6DC7 /* CiberRateCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67759C2623549500000F6DC7 /* CiberRateCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67759C3623549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculatorUITests" */;
+			buildPhases = (
+				67759C2323549500000F6DC7 /* Sources */,
+				67759C2423549500000F6DC7 /* Frameworks */,
+				67759C2523549500000F6DC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67759C2923549500000F6DC7 /* PBXTargetDependency */,
+			);
+			name = CiberRateCalculatorUITests;
+			productName = CiberRateCalculatorUITests;
+			productReference = 67759C2723549500000F6DC7 /* CiberRateCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67759BFD235494FF000F6DC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Selvakumar;
+				TargetAttributes = {
+					67759C04235494FF000F6DC7 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					67759C1B23549500000F6DC7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 67759C04235494FF000F6DC7;
+					};
+					67759C2623549500000F6DC7 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 67759C04235494FF000F6DC7;
+					};
+				};
+			};
+			buildConfigurationList = 67759C00235494FF000F6DC7 /* Build configuration list for PBXProject "CiberRateCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67759BFC235494FF000F6DC7;
+			productRefGroup = 67759C06235494FF000F6DC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67759C04235494FF000F6DC7 /* CiberRateCalculator */,
+				67759C1B23549500000F6DC7 /* CiberRateCalculatorTests */,
+				67759C2623549500000F6DC7 /* CiberRateCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67759C03235494FF000F6DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				674F47BF2369C4FE0096F228 /* OpenSans-Light.ttf in Resources */,
+				67759C1623549500000F6DC7 /* LaunchScreen.storyboard in Resources */,
+				674F47C02369C4FE0096F228 /* OpenSans-LightItalic.ttf in Resources */,
+				6765E47B2356F01C00944029 /* HTCDropDownCell.xib in Resources */,
+				674F47C22369C4FE0096F228 /* OpenSans-Semibold.ttf in Resources */,
+				674F47C32369C4FE0096F228 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				674F47BA2369C4FE0096F228 /* OpenSans-Bold.ttf in Resources */,
+				67759C452354A717000F6DC7 /* EstimateTableViewCell.xib in Resources */,
+				676F58DF2357195300FBC20F /* EstimateCalculator.json in Resources */,
+				67759C1323549500000F6DC7 /* Assets.xcassets in Resources */,
+				674F47BB2369C4FE0096F228 /* OpenSans-BoldItalic.ttf in Resources */,
+				9877ABD7236071710098CEB3 /* DropDownJobTitleCellTableViewCell.xib in Resources */,
+				674F47C12369C4FE0096F228 /* OpenSans-Regular.ttf in Resources */,
+				67759C0E235494FF000F6DC7 /* Main.storyboard in Resources */,
+				674F47BE2369C4FE0096F228 /* OpenSans-Italic.ttf in Resources */,
+				674F47BD2369C4FE0096F228 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				674F47BC2369C4FE0096F228 /* OpenSans-ExtraBold.ttf in Resources */,
+				674F47C72369D54E0096F228 /* DropDownJobLevelTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C1A23549500000F6DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C2523549500000F6DC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67759C01235494FF000F6DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67759C3C2354A650000F6DC7 /* CreateEstimateViewController.swift in Sources */,
+				67759C11235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld in Sources */,
+				6765E4782356F01C00944029 /* HTCDropDownModel.swift in Sources */,
+				6777C5702372D6B3004956F4 /* Area+CoreDataProperties.swift in Sources */,
+				678A24BB2359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				9877ABE62360A8B70098CEB3 /* NetworkManager.swift in Sources */,
+				6777C56A2372D6B3004956F4 /* JobLevel+CoreDataClass.swift in Sources */,
+				6765E4792356F01C00944029 /* DropDownViewController.swift in Sources */,
+				67E4975F2355B0F600076B79 /* DataModel.m in Sources */,
+				678A24BC2359A9030074F59D /* TPKeyboardAvoidingTableView.m in Sources */,
+				6777C56B2372D6B3004956F4 /* Rate+CoreDataProperties.swift in Sources */,
+				6777C56F2372D6B3004956F4 /* Rate+CoreDataClass.swift in Sources */,
+				67759C0B235494FF000F6DC7 /* ViewController.swift in Sources */,
+				67759C442354A717000F6DC7 /* EstimateTableViewCell.swift in Sources */,
+				678A24BD2359A9030074F59D /* TPKeyboardAvoidingScrollView.m in Sources */,
+				9877ABE52360A8B70098CEB3 /* Reachability.m in Sources */,
+				9877AB96235F50BE0098CEB3 /* DropDownJobLevelViewController.swift in Sources */,
+				4C16E0DB235DE13E009B49EC /* WelcomeDashboardViewController.swift in Sources */,
+				67E497602355B0F600076B79 /* DropDownView.m in Sources */,
+				6777C5722372D6B3004956F4 /* Area+CoreDataClass.swift in Sources */,
+				9877ABE72360A8B70098CEB3 /* Reachability.swift in Sources */,
+				9877ABE82360A8B70098CEB3 /* NetworkManager.m in Sources */,
+				6777C56C2372D6B3004956F4 /* JobTitle+CoreDataClass.swift in Sources */,
+				67E4975D2355B0F600076B79 /* DropDownModel.m in Sources */,
+				9877ABEA2360A8B70098CEB3 /* ErrorModel.swift in Sources */,
+				674F47C62369D54E0096F228 /* DropDownJobLevelTableViewCell.swift in Sources */,
+				6765E47A2356F01C00944029 /* HTCDropDownCell.swift in Sources */,
+				67E4975E2355B0F600076B79 /* LOVDataModel.m in Sources */,
+				9877ABE92360A8B70098CEB3 /* AlertView.m in Sources */,
+				67759C3E2354A67B000F6DC7 /* EstimateDataModal.swift in Sources */,
+				6777C56D2372D6B3004956F4 /* Salary+CoreDataProperties.swift in Sources */,
+				6777C5732372D6B3004956F4 /* JobLevel+CoreDataProperties.swift in Sources */,
+				9877AB94235F50930098CEB3 /* DropDownJobTitleViewController.swift in Sources */,
+				67759C09235494FF000F6DC7 /* AppDelegate.swift in Sources */,
+				6777C56E2372D6B3004956F4 /* Salary+CoreDataClass.swift in Sources */,
+				6777C5712372D6B3004956F4 /* JobTitle+CoreDataProperties.swift in Sources */,
+				9877ABD6236071710098CEB3 /* DropDownJobTitleCellTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C1823549500000F6DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67759C2123549500000F6DC7 /* CiberRateCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67759C2323549500000F6DC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67759C2C23549500000F6DC7 /* CiberRateCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67759C1E23549500000F6DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67759C04235494FF000F6DC7 /* CiberRateCalculator */;
+			targetProxy = 67759C1D23549500000F6DC7 /* PBXContainerItemProxy */;
+		};
+		67759C2923549500000F6DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67759C04235494FF000F6DC7 /* CiberRateCalculator */;
+			targetProxy = 67759C2823549500000F6DC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		67759C0C235494FF000F6DC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67759C0D235494FF000F6DC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		67759C1423549500000F6DC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67759C1523549500000F6DC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		67759C2E23549500000F6DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67759C2F23549500000F6DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67759C3123549500000F6DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciber.costestimator.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/CiberRateCalculator/CiberRateCalculator.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67759C3223549500000F6DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ciber.costestimator.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/CiberRateCalculator/CiberRateCalculator.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67759C3423549500000F6DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.ciberratecalculator.CiberRateCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiberRateCalculator.app/CiberRateCalculator";
+			};
+			name = Debug;
+		};
+		67759C3523549500000F6DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.ciberratecalculator.CiberRateCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CiberRateCalculator.app/CiberRateCalculator";
+			};
+			name = Release;
+		};
+		67759C3723549500000F6DC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.ciberratecalculator.CiberRateCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiberRateCalculator;
+			};
+			name = Debug;
+		};
+		67759C3823549500000F6DC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YA5NH562EY;
+				INFOPLIST_FILE = CiberRateCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.ciberratecalculator.CiberRateCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CiberRateCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67759C00235494FF000F6DC7 /* Build configuration list for PBXProject "CiberRateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67759C2E23549500000F6DC7 /* Debug */,
+				67759C2F23549500000F6DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67759C3023549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67759C3123549500000F6DC7 /* Debug */,
+				67759C3223549500000F6DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67759C3323549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67759C3423549500000F6DC7 /* Debug */,
+				67759C3523549500000F6DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67759C3623549500000F6DC7 /* Build configuration list for PBXNativeTarget "CiberRateCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67759C3723549500000F6DC7 /* Debug */,
+				67759C3823549500000F6DC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		67759C0F235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				67759C10235494FF000F6DC7 /* CiberRateCalculator.xcdatamodel */,
+			);
+			currentVersion = 67759C10235494FF000F6DC7 /* CiberRateCalculator.xcdatamodel */;
+			path = CiberRateCalculator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 67759BFD235494FF000F6DC7 /* Project object */;
+}
