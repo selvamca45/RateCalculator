@@ -754,8 +754,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhaskar Rao Ramineni (G992NXQE2C)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = CiberRateCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -764,9 +764,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ciber.costestimator.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.costestimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = CiberRateEstimatorDevelopmentProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/CiberRateCalculator/CiberRateCalculator.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -777,8 +777,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Bhaskar Rao Ramineni (G992NXQE2C)";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = YA5NH562EY;
 				INFOPLIST_FILE = CiberRateCalculator/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -787,9 +787,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.3.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ciber.costestimator.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.htc.costestimator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = CiberRateEstimatorDevelopmentProfile;
 				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/CiberRateCalculator/CiberRateCalculator.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
