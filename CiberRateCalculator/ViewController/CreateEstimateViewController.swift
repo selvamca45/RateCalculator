@@ -1204,7 +1204,7 @@ class CreateEstimateViewController: UIViewController,UITableViewDelegate,UITable
             //self.estimateTableView.reloadData()
         }
     }
-    // Getting mimum Billrate & Total revenue from API using 
+    // Getting mimum Billrate & Total revenue from API using
     func GetMinimumBillrate(region:Int, jobTitle:Int,jobLevel:Int,GP:Int,estimatedHours:Int)
      {
         //http://mapp2.htcindia.com:8080/ciber/calculator/getbillrateandestimatedrevenue/areaid/\(region)/jobtitleid/\(jobTitle)/roleid/\(jobLevel)/gp/\(GP)/estimatedhours/\(estimatedHours)
@@ -1486,7 +1486,7 @@ class CreateEstimateViewController: UIViewController,UITableViewDelegate,UITable
         }
         self.numberOfResource.text = "No. of Resources : 0"
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillShow(_:)), name: UIResponder.keyboardDidShowNotification, object: nil)
-//        
+//
         NotificationCenter.default.addObserver(self, selector: #selector(self.keyboardWillHide(_:)), name: UIResponder.keyboardDidHideNotification, object: nil)
     
         // Do any additional setup after loading the view.
@@ -1552,6 +1552,17 @@ class CreateEstimateViewController: UIViewController,UITableViewDelegate,UITable
 //        {
 //            self.dismiss(animated: false, completion: nil)
 //        }
+    }
+    
+    @IBAction func logoutButtonPressed(_ sender:UIButton)
+    {
+        let alert = UIAlertView(title: "", message: "Are you sure want to exit?", delegate: self as? UIAlertViewDelegate, cancelButtonTitle: "NO", otherButtonTitles: "YES" )
+        alert.tag = 406
+        deletIndex = sender.tag
+        alert.show()
+        
+       // self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+
     }
     
     //Bring the cell on top of the view
@@ -2123,6 +2134,19 @@ class CreateEstimateViewController: UIViewController,UITableViewDelegate,UITable
             
             
             }
+        
+        if alertView.tag == 406{
+            if buttonIndex == 0
+            {
+               print("No to process the back action")
+            }
+            else
+            {
+            DispatchQueue.main.async {
+                self.view.window?.rootViewController?.dismiss(animated: true, completion: nil)
+            }
+            }
+        }
         
     }
             

@@ -50,6 +50,7 @@
 		678A24BB2359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B62359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		678A24BC2359A9030074F59D /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B72359A9030074F59D /* TPKeyboardAvoidingTableView.m */; };
 		678A24BD2359A9030074F59D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 678A24B82359A9030074F59D /* TPKeyboardAvoidingScrollView.m */; };
+		67D79FA42411046B004B4FF4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D79FA32411046B004B4FF4 /* LoginViewController.swift */; };
 		67E4975D2355B0F600076B79 /* DropDownModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497562355B0F600076B79 /* DropDownModel.m */; };
 		67E4975E2355B0F600076B79 /* LOVDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497582355B0F600076B79 /* LOVDataModel.m */; };
 		67E4975F2355B0F600076B79 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E497592355B0F600076B79 /* DataModel.m */; };
@@ -126,6 +127,7 @@
 		678A24B82359A9030074F59D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
 		678A24B92359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		678A24BA2359A9030074F59D /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		67D79FA32411046B004B4FF4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		67E497552355B0F600076B79 /* DropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownView.h; sourceTree = "<group>"; };
 		67E497562355B0F600076B79 /* DropDownModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownModel.m; sourceTree = "<group>"; };
 		67E497572355B0F600076B79 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 		67759C392354A607000F6DC7 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				67D79FA32411046B004B4FF4 /* LoginViewController.swift */,
 				67759C3B2354A650000F6DC7 /* CreateEstimateViewController.swift */,
 				4C16E0DA235DE13E009B49EC /* WelcomeDashboardViewController.swift */,
 			);
@@ -547,6 +550,7 @@
 				67759C11235494FF000F6DC7 /* CiberRateCalculator.xcdatamodeld in Sources */,
 				6765E4782356F01C00944029 /* HTCDropDownModel.swift in Sources */,
 				6777C5702372D6B3004956F4 /* Area+CoreDataProperties.swift in Sources */,
+				67D79FA42411046B004B4FF4 /* LoginViewController.swift in Sources */,
 				678A24BB2359A9030074F59D /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				9877ABE62360A8B70098CEB3 /* NetworkManager.swift in Sources */,
 				6777C56A2372D6B3004956F4 /* JobLevel+CoreDataClass.swift in Sources */,

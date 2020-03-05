@@ -13,6 +13,7 @@ import CoreData
 class WelcomeDashboardViewController: UIViewController,UIAlertViewDelegate {
 
     @IBOutlet weak var noResultsLabel : UILabel!
+    @IBOutlet weak var welcomeLabel : UILabel!
     var noOfScreenCount : Int = 1
     var versionArray : Array <HTCDropDownModel> = []
     var verversionDictionary : NSDictionary = NSDictionary()
@@ -28,11 +29,11 @@ class WelcomeDashboardViewController: UIViewController,UIAlertViewDelegate {
     var retriveArrayJobLevel : Array<HTCDropDownModel> = []
     var retriveArraySalary : Array<HTCDropDownModel> = []
     var selectedSalaryArray : Array<HTCDropDownModel> = []
-    
+    var userName  : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        welcomeLabel.text = "Welcome \(userName)!"
         // Do any additional setup after loading the view.
     }
     
