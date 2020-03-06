@@ -126,7 +126,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "2751D117-72F4-4189-8CA7-6E496D2C2CA6"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CiberRateCalculator/ViewController/LoginViewController.swift"
@@ -134,8 +134,164 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "56"
             endingLineNumber = "56"
-            landmarkName = "unknown"
-            landmarkType = "0">
+            landmarkName = "validate(userName:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CiberRateCalculator/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "validate(userName:password:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "692">
+               </Location>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "972">
+               </Location>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1252">
+               </Location>
+               <Location
+                  uuid = "A27362D6-D29A-4997-BD55-D0FB3E353430 - 5c2d934148bd9931"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CiberRateCalculator.LoginViewController.validate(userName: Swift.String, password: Swift.String) -&gt; Swift.Bool"
+                  moduleName = "CiberRateCalculator"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Workspace/HTC%20Projects/CiberRateCalculator/Jenkins_Code/Jenkins_Github/RateCalculator/CiberRateCalculator/ViewController/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "1532">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A307BA5-1A8D-45F1-8E0A-085ED4BAA63E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CiberRateCalculator/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "loginButtonPressed()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0B31452-A0D3-461D-B262-F1FA7ADB91D9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CiberRateCalculator/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "validate(userName:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E90F9D3-3BFB-4BA9-91E5-833CE5DF24E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CiberRateCalculator/ViewController/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "validate(userName:password:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
