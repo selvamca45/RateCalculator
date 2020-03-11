@@ -91,6 +91,7 @@ class LoginViewController: UIViewController {
                 }
             else
                 {return false}
+            // New User 
             case "HTCUSER":
                 if (password=="12345Welcome") {
                     userNameString = userName
